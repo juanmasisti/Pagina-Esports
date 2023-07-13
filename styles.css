@@ -1,0 +1,24 @@
+.navbar-brand img {
+    width: 50px; 
+    height: 60px;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#chartContainer {
+    height: 400px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
