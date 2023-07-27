@@ -1,4 +1,13 @@
 @charset "UTF-8";
+#mainContainer {
+  margin-top: 62px;
+  padding-top: 20px;
+}
+
+iframe {
+  border: 1px transparent;
+}
+
 html, iframe, body {
   background-color: #c8e6c9 !important;
 }
