@@ -45,3 +45,19 @@ h1 {
 .bg-custom {
   background-color: #34d1ac
 }
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.first-box{padding:10px;background:#9C0;}
+.second-box{padding:10px; background:#39F;}
+.third-box{padding:10px;background:#F66;}
+.fourth-box{padding:10px;background:#6CC;}
+
+.boton-volver{
+    margin-top:  1em;
+}
