@@ -1,14 +1,28 @@
-# Pagina-Esports
-Proyecto para la práctica profesional supervisada de la Diplomatura de Esports UNLP 2023.
- Nuestra idea consiste en realizar un proyecto de "dashboard" en base a un conjunto de datasets. Estos provistos de una web https://www.esportsearnings.com/ que se encarga de
-recopilar información sobre los videojuegos, torneos y sus respectivos premios (ganancias), y otro que nos provee de información , de los mismos juegos, pero en cuanto a sus venta, cantidad de jugadores totales, fecha de salida, entre otros datos
-de los últimos 20 años.
-En principio la idea es visualizar el dashboard como una página web, subido, hosteado y de acceso público.
-Lo primero sería filtrar los datasets obteniendo los datos más relevantes de una selección de los principales juegos de Esports a nivel mundial (League of Legends, CSGO, etc.)
-El contenido a mostrar en el trabajo resultará de las preguntas más relevantes y de interés, tales como:
--¿Títulos más jugados a nivel mundial?
--¿Mayor premio otorgado en un torneo?
--¿Genero más jugado?
--¿Ganancias a lo largo de los años?.
+# Proyecto de Dashboard de Esports UNLP 2023
 
-En el proyecto, además de trabajar los datos, los mismos van a ser procesados para su visualización a través de la herramienta "looker" (https://lookerstudio.google.com/) y junto con esto, implementar diseño web, para culminar la presentación.
+Este proyecto tiene como objetivo la realización de un "dashboard" para la Diplomatura de Esports UNLP 2023, como parte de la práctica profesional supervisada. El dashboard estará basado en un conjunto de datasets obtenidos de la web [https://www.esportsearnings.com/](https://www.esportsearnings.com/), que recopila información sobre los videojuegos, torneos y sus respectivos premios (ganancias). Además, se utilizará otro dataset que proporciona información sobre los mismos juegos, pero incluyendo datos como ventas, cantidad de jugadores totales, fecha de salida, entre otros, durante los últimos 20 años.
+
+## Objetivo
+
+El objetivo principal del proyecto es crear un dashboard interactivo que funcione como una página web de acceso público. Para lograrlo, se seguirán los siguientes pasos:
+
+1. **Obtención y filtrado de datos**: Se seleccionarán los principales juegos de Esports a nivel mundial, como por ejemplo, League of Legends y CSGO. A partir de los datasets, se extraerán los datos más relevantes para el análisis.
+
+2. **Preguntas a responder**: El contenido del dashboard se enfocará en responder las preguntas más relevantes e interesantes para el público, como:
+
+   - ¿Cuáles son los títulos más jugados a nivel mundial?
+   - ¿Cuál ha sido el mayor premio otorgado en un torneo de Esports?
+   - ¿Cuál es el género más jugado en el ámbito de los videojuegos de Esports?
+   - ¿Cómo han variado las ganancias a lo largo de los años?
+
+3. **Procesamiento y visualización de datos**: Se utilizará la herramienta "looker" ([https://lookerstudio.google.com/](https://lookerstudio.google.com/)) para procesar y visualizar los datos obtenidos. Esto permitirá crear gráficos y representaciones visuales que faciliten la comprensión de la información.
+
+4. **Diseño web**: Además de trabajar con los datos y su visualización, se implementará un diseño web atractivo y funcional para la presentación del dashboard.
+
+## Resultados esperados
+
+Se espera obtener un dashboard interactivo y de fácil acceso para el público interesado en el mundo de los Esports. A través de gráficos, tablas y visualizaciones, se brindará una visión completa y detallada de los principales juegos de Esports, sus torneos, premios y ganancias a lo largo del tiempo. La herramienta "looker" permitirá una exploración intuitiva de los datos, mientras que el diseño web proporcionará una experiencia amigable y atractiva para los usuarios.
+
+El proyecto busca contribuir al análisis y comprensión del creciente mundo de los Esports, ofreciendo información valiosa para jugadores, aficionados, periodistas especializados y cualquier persona interesada en esta emocionante industria.
+
+**¡Esperamos que este dashboard sea una herramienta útil y enriquecedora para todos los amantes de los Esports!**
