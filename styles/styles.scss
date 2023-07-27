@@ -1,0 +1,45 @@
+html, iframe, body
+ {
+  background-color: #c8e6c9 !important;
+ }
+
+h1 {
+  padding: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#chartContainer {
+  height: 400px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(80%);
+}
+
+.navbar {
+  padding: 20px;
+  /* Ajusta el espaciado interior de la barra de navegación */
+}
+
+.navbar-brand {
+  font-size: 24px;
+  /* Ajusta el tamaño del texto de la marca de navegación */
+}
+
+.nav-link {
+  font-size: 20px;
+  /* Ajusta el tamaño del texto de los enlaces de navegación */
+  margin-left: 10px;
+  /* Ajusta el espaciado entre los elementos de enlace */
+}
+
+.bg-custom {
+  background-color: #34d1ac
+}
