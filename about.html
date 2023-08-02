@@ -1,29 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-widht, initial-scale=1.0">
   <title>Gráficos de Esports</title>
-
-
-  <link rel="stylesheet" href="styles.css">  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <!-- <meta name="keywords" content=""> -->
+  <!-- <meta name="description" content=""> -->
 </head>
 
 <body>
-  <iframe src="navbar.html" frameborder="0" scrolling="no" style="width: 100%; height: 60px;"></iframe>
-
-  <div class="container">
-    <h1>Gráficos de Esports</h1>
-    <div id="chartContainer">
-      <!-- Aca se mostrará acerca de -->
+  <!-- NAV BAR START -->
+  <div class="container-fluid bg-primary">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo240.png" alt="Logo" width="30" height="30" class="d-inline-block align-top">
+            Esports
+          </a>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">
+                Acerca
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/juanmasisti/Pagina-Esports" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   </div>
+  <!-- NAV BAR END -->
+  <!-- CONTENIDO START-->
+  <div class="container">
+    <h1 class="display-4">Acerca del Proyecto</h1>
+    <div class="lead">
+      <p>Nuestro proyecto consiste en desarrollar un "dashboard" interactivo basado en un conjunto de datasets provenientes de dos fuentes distintas. Una de las fuentes es el sitio web https://www.esportsearnings.com/, que proporciona información detallada sobre los videojuegos, torneos y sus respectivos premios (ganancias) en el ámbito de los deportes electrónicos. La otra fuente nos provee datos sobre las ventas, cantidad de jugadores totales, fechas de lanzamiento y otros detalles relevantes de los mismos videojuegos a lo largo de los últimos 20 años.</p>
+    </div>
+
+    <h2>Objetivos</h2>
+    <p>El objetivo de la página es poder visualizar una serie de características y datos interactivos que permitirán responder preguntas relevantes sobre los Esports. </p>
+
+    <h2>Características</h2>
+    <ul>
+      <li>Exploración de Títulos más Jugados: Se podrá explorar y comparar los títulos de videojuegos más jugados a nivel mundial, basados en los datos de jugadores totales y ventas.</li>
+      <li>Género más Jugado: Se realizará un análisis del género de videojuegos más jugado y exitoso a lo largo del tiempo, destacando su popularidad en los Esports.</li>
+      <li>Evolución de Ganancias: Se presentará una visualización de las ganancias a lo largo de los años, tanto de los torneos de esports como de las ventas de videojuegos, permitiendo comparar su crecimiento y evolución.</li>
+      <!-- Agrega más características según sea necesario -->
+    </ul>
+
+    <h2>Visión General</h2>
+    <p>El objetivo principal de este proyecto es proporcionar una herramienta eficiente y atractiva para explorar y analizar datos relevantes en el ámbito de los esports y la industria de los videojuegos. A través de visualizaciones interactivas y personalizadas, nuestro dashboard permitirá a los usuarios descubrir patrones, tendencias y hallazgos interesantes en los datos recopilados.
+      <br> <br>
+      Al ofrecer una interfaz amigable y accesible, buscamos que tanto entusiastas de los deportes electrónicos como profesionales de la industria puedan beneficiarse de esta plataforma, aprovechando su potencial para tomar decisiones informadas y adquirir una comprensión más profunda del panorama de los videojuegos y esports.
+      <br> <br>
+      Esperamos que este dashboard sirva como una valiosa fuente de información y análisis para la comunidad de jugadores, entusiastas de los deportes electrónicos y profesionales de la industria de los videojuegos.
+      </p>
+
+    <blockquote class="blockquote">
+      <p>Integrantes</p>
+      <footer class="blockquote-footer">Leandro Maselli </footer>
+      <footer class="blockquote-footer">Juan Manuel Sisti </footer>
+    </blockquote>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="img/slider2.png" alt="Imagen 1" class="img-fluid mb-4">
+      </div>
+      <div class="col-md-6">
+        <img src="img/slider1.png" alt="Imagen 2" class="img-fluid mb-4">
+      </div>
+    </div>
+  </div>
+  <!-- CONTENIDO END-->
+  <!-- FOOTER START -->
+  <nav class="navbar fixed-bottom bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">E-Sports Data</a>
+        Copyrigth - Todos los derechos reservados
+    </div>
+  </nav>
+  <!-- FOOTER END -->
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</body>
 
-</html>
+   <!-- Importar los iconos de Font Awesome -->
+   <script src="https://kit.fontawesome.com/dfb6d8da02.js" crossorigin="anonymous"></script>
+  </body>
+  
+  </html>

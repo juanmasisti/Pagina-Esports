@@ -83,4 +83,12 @@ h1 {
 
 .boton-volver {
   margin-top: 1em;
+}
+
+.row {
+  margin-bottom: 6em;
+}
+
+.container {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }/*# sourceMappingURL=styles.css.map */
