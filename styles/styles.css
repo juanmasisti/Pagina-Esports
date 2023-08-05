@@ -10,8 +10,15 @@ iframe {
   height: 100vh;
 }
 
-html, iframe, body {
+.modal-content {
   background-color: #c8e6c9 !important;
+}
+
+html,
+iframe,
+body {
+  background-color: #c8e6c9 !important;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 h1 {
@@ -91,4 +98,9 @@ h1 {
 
 .container {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
 }/*# sourceMappingURL=styles.css.map */

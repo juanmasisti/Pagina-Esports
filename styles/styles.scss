@@ -1,9 +1,13 @@
 @import "_contenedorPrincipal.scss";
+@import "_modal.scss";
 
-html, iframe, body
- {
+
+html,
+iframe,
+body {
   background-color: #c8e6c9 !important;
- }
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
 
 h1 {
   padding: 100px;
@@ -53,20 +57,40 @@ h1 {
   }
 }
 
-.first-box{padding:10px;background:#9C0;}
-.second-box{padding:10px; background:#39F;}
-.third-box{padding:10px;background:#F66;}
-.fourth-box{padding:10px;background:#6CC;}
-
-.boton-volver{
-    margin-top:  1em;
+.first-box {
+  padding: 10px;
+  background: #9C0;
 }
 
-.row{
-    margin-bottom: 6em;
+.second-box {
+  padding: 10px;
+  background: #39F;
 }
 
-.container{
+.third-box {
+  padding: 10px;
+  background: #F66;
+}
+
+.fourth-box {
+  padding: 10px;
+  background: #6CC;
+}
+
+.boton-volver {
+  margin-top: 1em;
+}
+
+.row {
+  margin-bottom: 6em;
+}
+
+.container {
   //font-family: 'Roboto', sans-serif;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
 }
