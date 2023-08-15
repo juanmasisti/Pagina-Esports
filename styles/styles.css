@@ -11,13 +11,13 @@ iframe {
 }
 
 .modal-content {
-  background-color: #c8e6c9 !important;
+  background-color: #fefff0 !important;
 }
 
 html,
 iframe,
 body {
-  background-color: #c8e6c9 !important;
+  background-color: #fefff0 !important;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -59,7 +59,7 @@ h1 {
 }
 
 .bg-custom {
-  background-color: #34d1ac;
+  background-color: #547972 !important;
 }
 
 @media (max-width: 576px) {
