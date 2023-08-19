@@ -5,8 +5,8 @@
 html,
 iframe,
 body {
-  background-color: #fefff0  !important;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  background-color: #fefff0 !important;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 h1 {
@@ -32,6 +32,12 @@ h1 {
 .navbar {
   padding: 20px;
   /* Ajusta el espaciado interior de la barra de navegación */
+
+  a {
+    color: #fefff0 !important;
+    font-weight: 600 !important;
+  }
+
 }
 
 .navbar-brand {
@@ -85,23 +91,17 @@ h1 {
   margin-bottom: 6em;
 }
 
-.container {
-  //font-family: 'Roboto', sans-serif;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
-
 a {
   text-decoration: none !important;
   color: black !important;
 }
 
-.custom-margin-top{
-  margin-top: 92px!important;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.custom-margin-top {
+  margin-top: 92px !important;
   font-size: 1.8rem;
 }
 
-.custom-margin-top h3{
+.custom-margin-top h3 {
   margin: 30px;
   font-size: 2.3rem;
 }
